@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "tsc",
-    "start": " node dist/app.js"
+    "start": "node dist/app.js"
   },
   "dependencies": {
     "body-parser": "^1.20.0",
