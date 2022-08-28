@@ -6,4 +6,4 @@ export class WeatherController {
   getAll() {
     return [{area:'NE',weather:'Humid'}, {area:'SW', weather: 'Sunny'}];
   }
-}
+} 
