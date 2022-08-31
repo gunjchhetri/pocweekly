@@ -1,0 +1,7 @@
+{
+    "cdk":{
+        "environment": "dev",
+        "account": "752925401921",
+        "region": "ap-south-1"
+    }
+}
