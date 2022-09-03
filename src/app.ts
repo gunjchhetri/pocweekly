@@ -1,6 +1,6 @@
 import { createExpressServer } from 'routing-controllers';
 import path from 'path';
-const PORT = 8000;
+const PORT = 80;
 const HOST = '0.0.0.0';
 console.log('path is '+ path.join(__dirname + '/controllers/*.js'));
 createExpressServer({

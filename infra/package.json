@@ -22,7 +22,9 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
+    "@types/config": "^3.3.0",
     "aws-cdk-lib": "2.34.2",
+    "config": "^3.3.7",
     "constructs": "^10.0.0",
     "cross-env": "^7.0.3",
     "node-env": "^0.1.6",
