@@ -3,8 +3,7 @@ let redisClient:redis.RedisClientType;
 export const initializeRedis = async (redisPort: number)=>{ 
     redisClient = redis.createClient({
       socket: {
-         host :'redis-server',
-         port: redisPort
+         host :'redis-server.redis-server.com',
       }
     });
     redisClient.on('error', (err)=>{
